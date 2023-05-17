@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+    <link rel="stylesheet" type="text/css" href="unit.css" />
+    <title>Temp.C</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Temperature Converter</h1>
+        <div id="content">
+        <div class="content1">
+            <label for="">Celsius :</label><br>
+            <input type="number"  id="celsius" oninput= "celToFar()" class= "content2">
+        </div>
+          <div class="content1">
+            <h1>=</h1>
+         </div>
+                <div class="content1">
+                    <label for="">Fahrenheit :</label><br>
+                    <input type="number"  id="fahrenheit"  oninput = "farToCel()" class="content2">
+                </div>
+    
+    </div>
+    </div>
+    <script src="tc.js"></script>
+    </body>
+</html>
